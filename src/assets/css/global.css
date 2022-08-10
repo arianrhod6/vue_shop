@@ -24,3 +24,6 @@ body,
   margin-top: 15px;
 }
 
+.el-cascader-menu {
+  max-height: 250px;
+}

@@ -181,9 +181,7 @@
 
       <span slot="footer" class="dialog-footer">
         <el-button @click="setRoleDialogVisible = false">取 消</el-button>
-        <el-button type="primary" @click="saveRoleInfo"
-          >确 定</el-button
-        >
+        <el-button type="primary" @click="saveRoleInfo">确 定</el-button>
       </span>
     </el-dialog>
   </div>
@@ -427,10 +425,10 @@ export default {
       this.setRoleDialogVisible = false
     },
     //监听非陪角色对话框的关闭事件
-    setRoleDialogClosed(){
+    setRoleDialogClosed() {
       this.selectedRoleId = ''
       this.userInfo = {}
-    }
+    },
   },
 }
 </script>
